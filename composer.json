@@ -1,0 +1,7 @@
+{
+    "name": "xsollas/summer-school",
+    "require": {},
+    "autoload": {
+        "psr-4": {"SummerSchool\\": "src/"}
+    }
+}
