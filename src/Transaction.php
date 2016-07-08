@@ -7,7 +7,7 @@ class Transaction {
   private $description;
   private $amount;
 
-  public function __counstruct($amount, Category $category, \DateTime $date, $description) {
+  public function __construct($amount, Category $category, \DateTime $date, $description) {
     $this->amount = $amount;
     $this->category = $category;
     $this->description = $description;
