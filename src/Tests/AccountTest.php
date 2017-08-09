@@ -1,9 +1,10 @@
 <?php
-namespace SummerSchool;
-
-require __DIR__."/../../vendor/autoload.php";
+namespace SummerSchool\Tests;
 
 use PHPUnit\Framework\TestCase;
+use SummerSchool\Account;
+use SummerSchool\Category;
+use SummerSchool\Transaction;
 
 class AccountTest extends TestCase{
   public function testAccount(){
