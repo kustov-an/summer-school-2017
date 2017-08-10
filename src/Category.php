@@ -12,4 +12,9 @@ class Category {
     $this->name = $name;
     $this->description = $description;
   }
+
+  public function getName()
+  {
+    return $this->name;
+  }
 }

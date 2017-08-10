@@ -28,5 +28,6 @@ class Account {
         $spent = $spent + $transaction->getAmount();
       }
     }
+    return $spent;
   }
 }
